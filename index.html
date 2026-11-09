@@ -117,6 +117,50 @@
           <img src="https://images.squarespace-cdn.com/content/v1/54f2df67e4b079e94c291e4f/1445765310828-N3XYTRGIAOEQWS5XFV52/solved+rubiks+cube" width="200" alt="A solved Cube with red, green, and yellow facing forward">
         </figure>
         </section>
+        <section>
+          <form method="get">
+            <fieldset>
+              <legend>Was this helpful? (Required)</legend>
+              <input type="radio" id="yes" name="helpful" required>
+              <label for="yes">Definitely!</label>
+              <br/>
+              <input type="radio" id="middle" name="helpful" required>
+              <label for="middle">A Bit Confusing</label>
+              <br/>
+              <input type="radio" id="no" name="helpful" required>
+              <label for="no">Not At All</label>
+              <br/>
+              <br/>
+              <fieldset>
+                <legend>When did you submit this? (Required)</legend>
+                <label for="submittion-date">Date</label>
+                <input type="date" id="date" name="submittion-date" required>
+              </fieldset>
+              <br/>
+              <fieldset>
+                <legend>What is your best favourite step? (Check all that apply)</legend>
+                <input type="checkbox" id="cross" name="cross">
+                <label for="cross">Cross</label>
+                <br/>
+                <input type="checkbox" id="first-layer" name="first-layer">
+                <label for="first-layer">First Layer</label>
+                <br/>
+                <input type="checkbox" id="second-layer" name="second-layer">
+                <label for="second-layer">Second Layer</label>
+                <br/>
+                <input type="checkbox" id="last-layer" name="last-layer">
+                <label for="last-layer">Last Layer</label>
+                <br/>
+              </fieldset>
+              <fieldset>
+                <legend>Any Feedback?</legend>
+                <textarea name="feedback" id="feedback" rows="5" cols="40" placeholder="Type Feedback Here (No personal information)"></textarea>
+              </fieldset>
+            </fieldset>
+            <br/>
+            <input type="submit" id="submit" name="submit" value="Click here to Submit">
+          </form>
+        </section>
     </main>
     <footer>
       <p>Alexander &#169; Images Not Owned</p>
