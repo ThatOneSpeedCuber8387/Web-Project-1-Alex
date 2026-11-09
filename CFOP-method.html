@@ -20,6 +20,7 @@
     </header>
     <main>
       <section id="cross-cfop">
+        <!--Explanation of white cross in CFOP-->
         <h2>Cross</h2>
         <p>
           Similar to the Beginner's method, the first step is to solve a white
@@ -28,6 +29,7 @@
           edges into their correct place and aligning the cross to the correct
           centers. A white cross can always be solved in 8 moves or less.
         </p>
+        <!--Iframe to show cross inserts and tips to solve the cross.-->
         <figcaption>
           Here's a guide explaining details and specific inserts for cross.
         </figcaption>
@@ -52,6 +54,7 @@
         </figure>
       </section>
       <section id="f2l-cfop">
+        <!--Explanation of F2L within CFOP-->
         <h2>First Two Layers (F2L)</h2>
         <p>
           F2L is the step after solving the cross. This step involves solving
@@ -61,14 +64,15 @@
           an extra step of seperating the edge and corner pieces if they are
           connected together incorrectly.
         </p>
+        <!--Image to show F2L solved-->
         <figure>
           <img
             src="https://images.squarespace-cdn.com/content/v1/668fde52a2afec107b57bdda/1e11d819-fb9a-487d-80a1-577808ba3913/f2l.png"
             width="150"
             alt="A Rubik's cube with F2L completely solved" />
-          <br />
         </figure>
         <figcaption>A Rubik's cube with F2L completely solved</figcaption>
+        <!--Iframe to show how to solve F2L and beginner inserts.-->
         <figure>
           <iframe
             width="560"
@@ -93,6 +97,7 @@
         </figcaption>
       </section>
       <section id="oll-cfop">
+        <!--Explanation of OLL, the first step of last layer.-->
         <h2>OLL</h2>
         <p>
           Orientation of the Last Layer (OLL) is the second to last step in the
@@ -105,6 +110,7 @@
           algorithms one of them being Sune, to orient the yellow sticker to the
           top face.
         </p>
+        <!--Image to show what solved OLL looks like.-->
         <figure>
           <img
             src="https://www.speedsolving.com/wiki/images/1/18/OLL_step.png"
@@ -113,6 +119,7 @@
         </figure>
         <figcaption>An example of solved OLL.</figcaption>
         <br />
+        <!--Iframe to show 2-look OLL algorithms.-->
         <figure>
           <iframe
             width="560"
@@ -137,6 +144,7 @@
         </figcaption>
       </section>
       <section id="pll-cfop">
+        <!--Explanation of PLL, the last step of the CFOP method.-->
         <h2>PLL</h2>
         <p>
           Permutation of the Last Layer (PLL) is the last step in the CFOP
@@ -156,6 +164,7 @@
           perm (Edge-only cases). After solving the edges, the cube will be
           solved.
         </p>
+        <!--Iframe to show 2-look PLL perms.-->
         <figure>
           <iframe
             width="560"
@@ -182,9 +191,11 @@
     </main>
     <br />
     <section>
+      <!--Form for feedback and suggestions.-->
       <form method="get">
         <fieldset>
           <legend>Was this helpful? (Required)</legend>
+          <!--Radio buttons to check what the user feels about the content.-->
           <input type="radio" id="yes" name="helpful" required />
           <label for="yes">Definitely!</label>
           <br />
@@ -197,12 +208,14 @@
           <br />
           <fieldset>
             <legend>When did you submit this? (Required)</legend>
+            <!--Date input to check when the form was submitted.-->
             <label for="submittion-date">Date</label>
             <input type="date" id="date" name="submittion-date" required />
           </fieldset>
           <br />
           <fieldset>
             <legend>What is your favourite step? (Check all that apply)</legend>
+            <!--Checkbox inputs to select favourite steps if user has any.-->
             <input type="checkbox" id="cross" name="cross" />
             <label for="cross">Cross</label>
             <br />
@@ -218,6 +231,7 @@
           </fieldset>
           <fieldset>
             <legend>Any Feedback?</legend>
+            <!--Text Area for Feedback.-->
             <textarea
               name="feedback"
               id="feedback"
@@ -227,6 +241,7 @@
           </fieldset>
         </fieldset>
         <br />
+        <!--Submit Button.-->
         <input
           type="submit"
           id="submit"
