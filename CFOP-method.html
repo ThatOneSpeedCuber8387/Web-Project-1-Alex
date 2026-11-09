@@ -179,5 +179,64 @@
         </figcaption>
       </section>
     </main>
+    <br />
+    <section>
+      <form method="get">
+        <fieldset>
+          <legend>Was this helpful? (Required)</legend>
+          <input type="radio" id="yes" name="helpful" required />
+          <label for="yes">Definitely!</label>
+          <br />
+          <input type="radio" id="middle" name="helpful" required />
+          <label for="middle">A Bit Confusing</label>
+          <br />
+          <input type="radio" id="no" name="helpful" required />
+          <label for="no">Not At All</label>
+          <br />
+          <br />
+          <fieldset>
+            <legend>When did you submit this? (Required)</legend>
+            <label for="submittion-date">Date</label>
+            <input type="date" id="date" name="submittion-date" required />
+          </fieldset>
+          <br />
+          <fieldset>
+            <legend>
+              What is your best favourite step? (Check all that apply)
+            </legend>
+            <input type="checkbox" id="cross" name="cross" />
+            <label for="cross">Cross</label>
+            <br />
+            <input type="checkbox" id="f2l" name="f2l" />
+            <label for="f2l">F2L</label>
+            <br />
+            <input type="checkbox" id="oll" name="oll" />
+            <label for="oll">OLL</label>
+            <br />
+            <input type="checkbox" id="pll" name="pll" />
+            <label for="pll">PLL</label>
+            <br />
+          </fieldset>
+          <fieldset>
+            <legend>Any Feedback?</legend>
+            <textarea
+              name="feedback"
+              id="feedback"
+              rows="5"
+              cols="40"
+              placeholder="Type Feedback Here (No personal information)"></textarea>
+          </fieldset>
+        </fieldset>
+        <br />
+        <input
+          type="submit"
+          id="submit"
+          name="submit"
+          value="Click here to Submit" />
+      </form>
+    </section>
+    <footer>
+      <p>Alexander &#169; Images Not Owned</p>
+    </footer>
   </body>
 </html>
